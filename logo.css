@@ -386,6 +386,10 @@ body, html {
   width: 140px;
   height: 130px;
   }
+   .fire-container img {
+  width: 140px;
+  height: 140px;
+}
 }
 @media 
 (max-width: 420px) {
@@ -429,8 +433,8 @@ body, html {
   height: 150px;
   }
    .fire-container img {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
 }
 }
 /* Small phones (e.g., iPhone SE, small Android) */
@@ -475,8 +479,8 @@ body, html {
     height: 150px;
   }
    .fire-container img {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
 }
 }
 
@@ -522,8 +526,8 @@ body, html {
     height: 160px;
   }
    .fire-container img {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
 }
 }
 
@@ -569,8 +573,8 @@ body, html {
     height: 150px;
   }
    .fire-container img {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
 }
 }
 
@@ -616,6 +620,7 @@ body, html {
     height: 210px;
   }
 }
+
 
 
 
