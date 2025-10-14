@@ -335,3 +335,54 @@ body, html {
     font-size: 28px;
   }
 }
+ .tagline {
+    font-size: 16px;
+  }
+  .company-type,
+  .motto {
+    font-size: 12px;
+  }
+@media 
+(max-width: 360px) {
+  .logo-graphic {
+    width: 180px;
+    height: 180px;
+  }
+  .company-name {
+    font-size: 24px;
+  }
+  .tagline {
+    font-size: 14px;
+  }
+  .company-type,
+  .motto {
+    font-size: 11px;
+  }
+  .left-triangle {
+    right: 90px;
+    bottom: -80px;
+    width: 150px;
+   height: 155px;
+  }
+   .right-triangle {
+    left: 90px;
+    bottom: -50px;
+     width: 150px;
+   height: 155px;
+  }
+  .top-triangle {
+    bottom: 70px;
+    left: 60px;
+    width: 150px;
+    height: 155px;
+  }
+  .fire-container {
+  left: 85px;
+  bottom: -80px;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  }
+}
+
+
