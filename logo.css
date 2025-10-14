@@ -426,6 +426,179 @@ body, html {
   height: 150px;
   }
 }
+/* Small phones (e.g., iPhone SE, small Android) */
+@media (max-width: 420px) {
+  .logo-graphic {
+    width: 180px;
+    height: 180px;
+  }
+  .company-name {
+    font-size: 24px;
+  }
+  .tagline {
+    font-size: 14px;
+  }
+  .company-type,
+  .motto {
+    font-size: 11px;
+  }
+  .left-triangle {
+    right: 90px;
+    bottom: -80px;
+    width: 150px;
+    height: 155px;
+  }
+  .right-triangle {
+    left: 90px;
+    bottom: -50px;
+    width: 150px;
+    height: 155px;
+  }
+  .top-triangle {
+    bottom: 70px;
+    left: 60px;
+    width: 150px;
+    height: 155px;
+  }
+  .fire-container {
+    left: 85px;
+    bottom: -80px;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Medium phones (e.g., iPhone 11/12/13, Galaxy S series) */
+@media (min-width: 421px) and (max-width: 576px) {
+  .logo-graphic {
+    width: 200px;
+    height: 200px;
+  }
+  .company-name {
+    font-size: 26px;
+  }
+  .tagline {
+    font-size: 15px;
+  }
+  .company-type,
+  .motto {
+    font-size: 12px;
+  }
+  .left-triangle {
+    right: 100px;
+    bottom: -90px;
+    width: 170px;
+    height: 170px;
+  }
+  .right-triangle {
+    left: 100px;
+    bottom: -60px;
+    width: 170px;
+    height: 170px;
+  }
+  .top-triangle {
+    bottom: 80px;
+    left: 70px;
+    width: 170px;
+    height: 170px;
+  }
+  .fire-container {
+    left: 50%;
+    bottom: -90px;
+    transform: translate(-50%, -50%);
+    width: 170px;
+    height: 170px;
+  }
+}
+
+/* Large phones / small tablets (e.g., iPhone Plus, Pixel 8 Pro, iPad Mini) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .logo-graphic {
+    width: 230px;
+    height: 230px;
+  }
+  .company-name {
+    font-size: 30px;
+  }
+  .tagline {
+    font-size: 17px;
+  }
+  .company-type,
+  .motto {
+    font-size: 13px;
+  }
+  .left-triangle {
+    right: 120px;
+    bottom: -100px;
+    width: 190px;
+    height: 190px;
+  }
+  .right-triangle {
+    left: 120px;
+    bottom: -70px;
+    width: 190px;
+    height: 190px;
+  }
+  .top-triangle {
+    bottom: 90px;
+    left: 80px;
+    width: 190px;
+    height: 190px;
+  }
+  .fire-container {
+    left: 50%;
+    bottom: -100px;
+    transform: translate(-50%, -50%);
+    width: 190px;
+    height: 190px;
+  }
+}
+
+/* Tablets (e.g., iPads, large Android tablets) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .logo-graphic {
+    width: 260px;
+    height: 260px;
+  }
+  .company-name {
+    font-size: 34px;
+  }
+  .tagline {
+    font-size: 18px;
+  }
+  .company-type,
+  .motto {
+    font-size: 14px;
+  }
+  .left-triangle {
+    right: 140px;
+    bottom: -110px;
+    width: 210px;
+    height: 210px;
+  }
+  .right-triangle {
+    left: 140px;
+    bottom: -80px;
+    width: 210px;
+    height: 210px;
+  }
+  .top-triangle {
+    bottom: 100px;
+    left: 100px;
+    width: 210px;
+    height: 210px;
+  }
+  .fire-container {
+    left: 50%;
+    bottom: -110px;
+    transform: translate(-50%, -50%);
+    width: 210px;
+    height: 210px;
+  }
+}
+
+
 
 
 
