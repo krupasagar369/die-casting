@@ -242,7 +242,9 @@ height: 105px;
     height: auto; 
 }
 .brand-text-container {
-    display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     flex-direction: column;
     line-height: 1.2;
 }
@@ -2049,4 +2051,5 @@ height: 105px;
         width: 14px;
         height: 14px;
     }
+
 }
