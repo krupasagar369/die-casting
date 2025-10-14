@@ -95,7 +95,7 @@ body {
   filter: drop-shadow(0 0 25px rgba(255, 140, 0, 0.8));
 }
 /* Fire Animations */
-@keyframes scaleInFire {
+/* @keyframes scaleInFire {
   from {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.3);
@@ -104,7 +104,7 @@ body {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
   }
-}
+} */
 /*  */
 
 /* @keyframes fireGlow {
@@ -597,6 +597,7 @@ body, html {
     height: 210px;
   }
 }
+
 
 
 
